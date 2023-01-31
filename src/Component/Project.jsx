@@ -13,7 +13,7 @@ function Project() {
                 <a href="#">
                     <img className="rounded-t-lg p-4" src={portfolioimg} alt="..." />
                 </a>
-                <div className="p-5 w-80">
+                <div className="p-5 md:w-60 xl:w-80">
                     <a href="https://harrisjohanda-portfolio.netlify.app/">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Portfolio</h5>
                     </a>
@@ -24,7 +24,7 @@ function Project() {
                 <a href="#">
                     <img className="rounded-t-lg" src={base} alt="..." />
                 </a>
-                <div className="p-5 w-80">
+                <div className="p-5 md:w-60 xl:w-80">
                     <a href="">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Project Title</h5>
                     </a>
@@ -35,7 +35,7 @@ function Project() {
                 <a href="#">
                     <img className="rounded-t-lg" src={base} alt="..." />
                 </a>
-                <div className="p-5 w-80">
+                <div className="p-5 md:w-60 xl:w-80">
                     <a href="">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Project Title</h5>
                     </a>
