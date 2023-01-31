@@ -1,39 +1,45 @@
 import React from 'react';
 import base from '../image/base.png';
+import portfolioimg from '../image/portfolioimg.PNG'
 
 function Project() {
     return ( 
-    <div className='mt-20 pt-10'>
-        <div className='ml-20 lg:text-center mr-10'>
+    <div className='mt-20 pt-10 pb-10'>
+        <div className='text-center lg:text-center'>
             <h2 className='font-bold text-xl  pb-8'>PORTOFOLIO</h2>
         </div>
-        <div className='lg:flex justify-evenly gap-8'>
-            <div className='my-6 shadow-2xl bg-gray-500 p-3 rounded-xl'>
-                <img className='w-auto h-auto' src={base} alt="" />
-                <div className='text-justify text-white p-4'>
-                    <h3>title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam a necessitatibus perferendis error, similique consectetur culpa pariatur aspernatur provident. Debitis perferendis non exercitationem expedita tenetur iure nostrum? Ea, pariatur?</p>
+        <div className='md:flex xl:justify-evenly md:gap-10'>
+            <div className="mb-8 max-w-sm bg-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img className="rounded-t-lg p-4" src={portfolioimg} alt="..." />
+                </a>
+                <div className="p-5 w-80">
+                    <a href="https://harrisjohanda-portfolio.netlify.app/">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Portfolio</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-white dark:text-gray-400">The Portfolio project is built using CRA React.js, Tailwind CSS, Flowbite, and React Icons. CRA React.js is used for creating separate components, Tailwind CSS and Flowbite are used for design and layout, and React Icons provide a library of icons.</p>
                 </div>
             </div>
-            <div className='my-6 shadow-2xl bg-gray-500 p-3 rounded-xl '>
-                <img className='w-auto h-auto' src={base} alt="" />
-                <div className='text-justify text-white p-4'>
-                    <h3>title</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim laboriosam, omnis aliquam sapiente maiores non esse impedit velit quam neque nesciunt amet facere beatae quidem? Doloremque architecto quos illum? Ducimus?</p>
+            <div className="mb-8 max-w-sm bg-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img className="rounded-t-lg" src={base} alt="..." />
+                </a>
+                <div className="p-5 w-80">
+                    <a href="">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Project Title</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-white dark:text-gray-400">This description related to the project intended, and serves to provide an overview of the various modules and elements utilized during its development.</p>
                 </div>
             </div>
-            <div className='my-6 shadow-2xl bg-gray-500 p-3 rounded-xl'>
-                <img src={base} alt="" />
-                <div className='text-justify text-white p-4'>
-                    <h3>title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquam a necessitatibus perferendis error, similique consectetur culpa pariatur aspernatur provident. Debitis perferendis non exercitationem expedita tenetur iure nostrum? Ea, pariatur?</p>
-                </div>
-            </div>
-            <div className='my-6 shadow-2xl bg-gray-500 p-3 rounded-xl'>
-                <img src={base} alt="" />
-                <div className='text-justify text-white p-4'>
-                    <h3>title</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore cupiditate omnis asperiores, dolorem accusantium hic, ad, quas officiis dolorum minus ipsum voluptas consequuntur assumenda veniam corporis iusto a at?</p>
+            <div className="mb-8 max-w-sm bg-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                    <img className="rounded-t-lg" src={base} alt="..." />
+                </a>
+                <div className="p-5 w-80">
+                    <a href="">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Project Title</h5>
+                    </a>
+                    <p className="mb-3 font-normal text-white dark:text-gray-400">This description related to the project intended, and serves to provide an overview of the various modules and elements utilized during its development.</p>
                 </div>
             </div>
         </div>
